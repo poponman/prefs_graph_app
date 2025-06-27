@@ -25,7 +25,7 @@ const PrefCheckboxList: React.FC<Props> = ({ onSelectPrefCode }) => {
     if (error) return <p>読み込みエラー: {error}</p>;
 
     return(
-        <div>
+        <div className='checkboxContainer'>
             {Object.entries(regionMap).map(([regionName, codes]) => {
                 return(
                     <div key = {regionName} className = 'regionBlock'>
