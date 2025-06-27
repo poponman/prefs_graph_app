@@ -41,7 +41,7 @@ describe('usePrefectures', () => {
       Promise.reject(new Error('API error'))
     ) as jest.Mock;
 
-    const { result } = renderHook(() => usePrefectures('dummy-key'));
+    const { result } = renderHook(() => usePrefectures());
 
     await waitFor(() => {
       expect(result.current.loading).toBe(false);
