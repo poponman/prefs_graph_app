@@ -1,0 +1,54 @@
+.checkboxContainer{
+   display: flex;
+    flex-direction: column;
+    align-items: center; /* 子要素（regionBlock）を中央に配置 */
+    gap: 1.5rem;
+}
+
+.regionBlock {
+  width: 90%;
+  max-width: 1000px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  background-color: #f9f9f9;
+  text-align: left;
+}
+
+.regionLabel {
+  display: block;
+  font-size:clamp(1.25rem, 2vw, 1.75rem);
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+  margin-left: 10px;
+  color: #333;
+  border-bottom: 3px solid #ccc;
+}
+
+.prefsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding-left: 16px;
+}
+
+.prefCheckbox {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 500;
+  font-size: clamp(1rem, 1.5vw, 1.5rem);
+  color: #555;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.prefCheckbox.selected {
+  color: #000;
+  font-weight: 600;
+}
+
+.prefCheckbox input[type='checkbox'] {
+  cursor: pointer;
+}
