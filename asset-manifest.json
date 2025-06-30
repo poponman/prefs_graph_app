@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/poponman/prefs_graph_app/static/css/main.262533a2.css",
-    "main.js": "/poponman/prefs_graph_app/static/js/main.94dfc668.js",
-    "static/media/todouhuken.png": "/poponman/prefs_graph_app/static/media/todouhuken.fc516efd201c2bdb84ba.png",
-    "index.html": "/poponman/prefs_graph_app/index.html",
-    "main.262533a2.css.map": "/poponman/prefs_graph_app/static/css/main.262533a2.css.map",
-    "main.94dfc668.js.map": "/poponman/prefs_graph_app/static/js/main.94dfc668.js.map"
+    "main.css": "/prefs_graph_app/static/css/main.262533a2.css",
+    "main.js": "/prefs_graph_app/static/js/main.633b4654.js",
+    "static/media/todouhuken.png": "/prefs_graph_app/static/media/todouhuken.fc516efd201c2bdb84ba.png",
+    "index.html": "/prefs_graph_app/index.html",
+    "main.262533a2.css.map": "/prefs_graph_app/static/css/main.262533a2.css.map",
+    "main.633b4654.js.map": "/prefs_graph_app/static/js/main.633b4654.js.map"
   },
   "entrypoints": [
     "static/css/main.262533a2.css",
-    "static/js/main.94dfc668.js"
+    "static/js/main.633b4654.js"
   ]
 }
